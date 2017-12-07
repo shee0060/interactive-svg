@@ -1,0 +1,9 @@
+.bear:hover #left-ear {
+  transform: translate(0, -.75em);
+  transition: all .5s linear;
+}
+
+.bear:hover #right-ear {
+  transform: translate(0, -.75em);
+  transition: all .5s linear;
+}
