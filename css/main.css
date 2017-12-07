@@ -1,6 +1,11 @@
 .bear:hover #left-ear {
   transform: translateY(0);
-  animation: ears .5s ease infinite alternate;
+  animation: ears 3s ease infinite alternate;
+}
+
+.bear:hover #right-ear {
+  transform: translateY(0);
+  animation: ears 3s ease infinite alternate;
 }
 
 @keyframes ears {
@@ -13,8 +18,22 @@
   }
 }
 
+.bear #left-eye {
+  transform: translateX(-10px);
+  animation: eyes .5s ease infinite alternate;
+}
 
-.bear:hover #right-ear {
-  transform: translateY(0);
-  animation: ears .5s ease infinite alternate;
+.bear #right-eye {
+  transform: translateX(-10px);
+  animation: eyes .5s ease infinite alternate;
+}
+
+@keyframes eyes {
+  0% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(10px);
+  }
 }
